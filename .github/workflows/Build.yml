@@ -45,7 +45,7 @@ jobs:
 
     # Build
     - name: Build project
-      uses: game-ci/unity-builder@v2.0.0-alpha-14
+      uses: game-ci/unity-builder@v2.0.3
       with:
         unityVersion: ${{ matrix.unityVersion }}
         targetPlatform: ${{ matrix.targetPlatform }}
